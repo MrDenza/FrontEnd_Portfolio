@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"> <!-- Тип и кодировка страницы -->
+		<!-- <meta http-equiv="refresh" content="5; URL=home.html">  Через 5 секунд загрузить URL -->
+		<meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1"> <!-- Для мобильной адаптации -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+		<title>AGENCY - Portfolio</title>
+		<link rel="icon" href="../favicon.png"> <!-- иконка 32×32 -->
+		<link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Шрифт -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Шрифт -->
+		<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap" rel="stylesheet"> <!-- Шрифт -->
+		<link rel="stylesheet" href="../style/style.css" type="text/css"> <!-- Стили общие -->
+		<link rel="stylesheet" href="../style/style-page-portfolio.css" type="text/css"> <!-- Стили для странички -->
+	</head>
+	<body>
+		<!-- ШАПКА -->
+		<header class="header">
+			<div class="body__container">
+				<div>
+					<div class="header__menu">
+						<a class="header__logo" href="../index.html" title="AGENCY - Home">
+							<img src="../image/logo.png" alt="Logo">
+						</a>
+						<details class="header__menu-box">
+							<summary class="header__menu-icon"></summary>
+							<nav class="header__menu-list">
+								<a href="../index.html" title="AGENCY - Home">Home</a>
+								<a href="aboutme.html" title="Go to the about me page">About</a>
+								<a href="services.html" title="Go to the services page">Services</a>
+								<a href="#" title="Go to the portfolio page">Portfolio</a>
+								<a href="blog.html" title="Go to the blog page">Blog</a>
+								<a href="contact.html" title="Go to the contact page">Contact</a>
+							</nav>
+						</details>
+					</div>
+					<nav class="header__nav">
+						<a class="header__logo" href="../index.html" title="AGENCY - Home">
+							<img src="../image/logo.png" alt="Logo" title="Logo AGENCY">
+						</a>
+						<ul class="header__list">
+							<li>
+								<a class="header__list-link text_anim3" href="aboutme.html" title="Go to the about me page">About</a>
+							</li>
+							<li>
+								<a class="header__list-link text_anim3" href="services.html" title="Go to the services page">Services</a>
+							</li>
+							<li>
+								<a class="header__list-link text_anim3" href="#" title="Go to the portfolio page">Portfolio</a>
+							</li>
+							<li>
+								<a class="header__list-link text_anim3" href="blog.html" title="Go to the blog page">Blog</a>
+							</li>
+						</ul>
+						<a class="header__btn-link btn_big btn_anim1" href="contact.html" title="Go to the contact page">Contact</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- КОНТЕНТ -->
+		<main>
+			<section class="pp-title"> <!-- БЛОК 0 = TITLE -->
+				<div class="body__container">
+					<div class="pp-title__all">
+						<h1 class="pp-title__title">Portfolio</h1>
+						<p class="pp-title__text">Agency provides a full service range including technical skills, design, business understanding.</p>
+					</div>
+				</div>
+			</section>
+			<section class="pp-nav"> <!-- БЛОК 1 = NAV -->
+				<div class="body__container">
+					<h2 class="off">off</h2>
+					<div class="pp-nav__all">
+						<label for="filter"></label>
+						<select class="pp-nav__mob-list" id="filter">
+							<option class="mob-list-all" value="pp-block__list-point" selected>Show All</option>
+							<option class="mob-list-design" value="post-design">Design</option>
+							<option class="mob-list-brand" value="post-brand">Branding</option>
+							<option class="mob-list-illus" value="post-illus">Illustration</option>
+							<option class="mob-list-motion" value="post-motion">Motion</option>
+						</select>
+						<ul class="pp-nav__list">
+							<li class="pp-nav__list-point text_anim1" onclick="visible_block('pp-block__list-point', 0, 1)">Show All <sup class="list-all">12</sup></li>
+							<li class="pp-nav__list-point text_anim1" onclick="visible_block('post-design', 0, 1)">Design <sup class="list-design">4</sup></li>
+							<li class="pp-nav__list-point text_anim1" onclick="visible_block('post-brand', 0, 1)">Branding <sup class="list-brand">4</sup></li>
+							<li class="pp-nav__list-point text_anim1" onclick="visible_block('post-illus', 0, 1)">Illustration <sup class="list-illust">2</sup></li>
+							<li class="pp-nav__list-point text_anim1" onclick="visible_block('post-motion', 0, 1)">Motion <sup class="list-motion">2</sup></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="pp-block"> <!-- БЛОК 2 = BLOCK -->
+				<div class="body__container">
+					<div class="pp-block__all">
+						<ul class="pp-block__list post-item">
+							<li class="pp-block__list-point post-design"> <!-- 1 -->
+								<a class="pp-block__list-fon pp-block__list-img-1 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;SOFA&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">SOFA</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 2 -->
+								<a class="pp-block__list-fon pp-block__list-img-2 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;KeyBoard&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">KeyBoard</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-illus"> <!-- 3 -->
+								<a class="pp-block__list-fon pp-block__list-img-3 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Work Media&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Illustration</span>
+										<h3 class="pp-block__title">Work Media</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-motion"> <!-- 4 -->
+								<a class="pp-block__list-fon pp-block__list-img-4 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;DDDone&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Motion</span>
+										<h3 class="pp-block__title">DDDone</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-design"> <!-- 5 -->
+								<a class="pp-block__list-fon pp-block__list-img-5 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;SOFA&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">Abstract</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 6 -->
+								<a class="pp-block__list-fon pp-block__list-img-6 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;HandP&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">HandP</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-motion"> <!-- 7 -->
+								<a class="pp-block__list-fon pp-block__list-img-7 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Architect&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Motion</span>
+										<h3 class="pp-block__title">Architect</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-design"> <!-- 8 -->
+								<a class="pp-block__list-fon pp-block__list-img-8 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;CalC&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">CalC</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 9 -->
+								<a class="pp-block__list-fon pp-block__list-img-9 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Sport&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">Sport</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-illus"> <!-- 10 -->
+								<a class="pp-block__list-fon pp-block__list-img-10 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Work Media&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Illustration</span>
+										<h3 class="pp-block__title">Work Media</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-design"> <!-- 11 -->
+								<a class="pp-block__list-fon pp-block__list-img-11 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;SOFA&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">SOFA</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 12 -->
+								<a class="pp-block__list-fon pp-block__list-img-12 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;HandP&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">HandP</h3>
+									</div>
+								</a>
+							</li>
+
+							<li class="pp-block__list-point post-design"> <!-- 1 -->
+								<a class="pp-block__list-fon pp-block__list-img-1 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;SOFA&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">SOFA</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 2 -->
+								<a class="pp-block__list-fon pp-block__list-img-2 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;KeyBoard&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">KeyBoard</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-illus"> <!-- 3 -->
+								<a class="pp-block__list-fon pp-block__list-img-3 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Work Media&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Illustration</span>
+										<h3 class="pp-block__title">Work Media</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-motion"> <!-- 4 -->
+								<a class="pp-block__list-fon pp-block__list-img-4 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;DDDone&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Motion</span>
+										<h3 class="pp-block__title">DDDone</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-design"> <!-- 5 -->
+								<a class="pp-block__list-fon pp-block__list-img-5 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;SOFA&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">Abstract</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 6 -->
+								<a class="pp-block__list-fon pp-block__list-img-6 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;HandP&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">HandP</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-motion"> <!-- 7 -->
+								<a class="pp-block__list-fon pp-block__list-img-7 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Architect&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Motion</span>
+										<h3 class="pp-block__title">Architect</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-design"> <!-- 8 -->
+								<a class="pp-block__list-fon pp-block__list-img-8 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;CalC&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">CalC</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 9 -->
+								<a class="pp-block__list-fon pp-block__list-img-9 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Sport&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">Sport</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-illus"> <!-- 10 -->
+								<a class="pp-block__list-fon pp-block__list-img-10 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Work Media&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Illustration</span>
+										<h3 class="pp-block__title">Work Media</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-design"> <!-- 11 -->
+								<a class="pp-block__list-fon pp-block__list-img-11 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;SOFA&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">SOFA</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 12 -->
+								<a class="pp-block__list-fon pp-block__list-img-12 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;HandP&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">HandP</h3>
+									</div>
+								</a>
+							</li>
+
+							<li class="pp-block__list-point post-design"> <!-- 1 -->
+								<a class="pp-block__list-fon pp-block__list-img-1 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;SOFA&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">SOFA</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 2 -->
+								<a class="pp-block__list-fon pp-block__list-img-2 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;KeyBoard&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">KeyBoard</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-illus"> <!-- 3 -->
+								<a class="pp-block__list-fon pp-block__list-img-3 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Work Media&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Illustration</span>
+										<h3 class="pp-block__title">Work Media</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-motion"> <!-- 4 -->
+								<a class="pp-block__list-fon pp-block__list-img-4 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;DDDone&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Motion</span>
+										<h3 class="pp-block__title">DDDone</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-design"> <!-- 5 -->
+								<a class="pp-block__list-fon pp-block__list-img-5 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;SOFA&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">Abstract</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 6 -->
+								<a class="pp-block__list-fon pp-block__list-img-6 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;HandP&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">HandP</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-motion"> <!-- 7 -->
+								<a class="pp-block__list-fon pp-block__list-img-7 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Architect&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Motion</span>
+										<h3 class="pp-block__title">Architect</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-design"> <!-- 8 -->
+								<a class="pp-block__list-fon pp-block__list-img-8 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;CalC&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">CalC</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 9 -->
+								<a class="pp-block__list-fon pp-block__list-img-9 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Sport&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">Sport</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-illus"> <!-- 10 -->
+								<a class="pp-block__list-fon pp-block__list-img-10 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Work Media&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Illustration</span>
+										<h3 class="pp-block__title">Work Media</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-design"> <!-- 11 -->
+								<a class="pp-block__list-fon pp-block__list-img-11 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;SOFA&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">SOFA</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 12 -->
+								<a class="pp-block__list-fon pp-block__list-img-12 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;HandP&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">HandP</h3>
+									</div>
+								</a>
+							</li>
+
+							<li class="pp-block__list-point post-design"> <!-- 1 -->
+								<a class="pp-block__list-fon pp-block__list-img-1 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;SOFA&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">SOFA</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 2 -->
+								<a class="pp-block__list-fon pp-block__list-img-2 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;KeyBoard&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">KeyBoard</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-illus"> <!-- 3 -->
+								<a class="pp-block__list-fon pp-block__list-img-3 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Work Media&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Illustration</span>
+										<h3 class="pp-block__title">Work Media</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-motion"> <!-- 4 -->
+								<a class="pp-block__list-fon pp-block__list-img-4 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;DDDone&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Motion</span>
+										<h3 class="pp-block__title">DDDone</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-design"> <!-- 5 -->
+								<a class="pp-block__list-fon pp-block__list-img-5 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;SOFA&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">Abstract</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 6 -->
+								<a class="pp-block__list-fon pp-block__list-img-6 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;HandP&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">HandP</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-motion"> <!-- 7 -->
+								<a class="pp-block__list-fon pp-block__list-img-7 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Architect&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Motion</span>
+										<h3 class="pp-block__title">Architect</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-design"> <!-- 8 -->
+								<a class="pp-block__list-fon pp-block__list-img-8 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;CalC&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">CalC</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 9 -->
+								<a class="pp-block__list-fon pp-block__list-img-9 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Sport&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">Sport</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-illus"> <!-- 10 -->
+								<a class="pp-block__list-fon pp-block__list-img-10 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;Work Media&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Illustration</span>
+										<h3 class="pp-block__title">Work Media</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-design"> <!-- 11 -->
+								<a class="pp-block__list-fon pp-block__list-img-11 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;SOFA&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Design</span>
+										<h3 class="pp-block__title">SOFA</h3>
+									</div>
+								</a>
+							</li>
+							<li class="pp-block__list-point post-brand"> <!-- 12 -->
+								<a class="pp-block__list-fon pp-block__list-img-12 list_anim2" href="../error-404.html" title="Go to the project description page &laquo;HandP&raquo;">
+									<div class="pp-block__box">
+										<span class="pp-block__list-subtitle">Branding</span>
+										<h3 class="pp-block__title">HandP</h3>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<div class="pp-block__btn-box">
+							<div class="pp-block__btn-link btn_big btn_anim3" title="Show All" onclick="visible_block(filter_point, 1, 0)">Load More</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="pp-contact"> <!-- БЛОК 3 = CONTACT -->
+				<div class="body__container">
+					<div class="pp-contact__all">
+						<div class="pp-contact__info">
+							<h2 class="pp-contact__title">Help To Build Your Dream Project</h2>
+							<p class="pp-contact__text">A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
+							<a class="pp-contact__btn-link btn_big btn_anim4" href="../page/contact.html" title="Go to the contact page">Contact me</a>
+						</div>
+						<div class="pp-contact__img-box">
+							<img class="pp-contact__img" src="../image/pic6.png" alt="Photo of the author" title="Photo of Gabriel Pires">
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- ПОДВАЛ -->
+		<footer class="footer">
+			<div class="body__container">
+				<nav class="footer__all">
+					<div class="footer__title-box">
+						<a class="footer__title text_anim1" href="../index.html" title="AGENCY - Home">Personal</a>
+					</div>
+					<div class="footer__menu">
+						<h5 class="footer__subtitle">Menu</h5>
+						<ul class="footer__list">
+							<li>
+								<a class="text_anim1" href="aboutme.html" title="Go to the about me page">About</a>
+							</li>
+							<li>
+								<a class="text_anim1" href="services.html" title="Go to the services page">Services</a>
+							</li>
+							<li>
+								<a class="text_anim1" href="blog.html" title="Go to the blog page">Blog</a>
+							</li>
+							<li>
+								<a class="text_anim1" href="contact.html" title="Go to the contact page">Contact</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__menu">
+						<h5 class="footer__subtitle">Service</h5>
+						<ul class="footer__list">
+							<li>
+								<a class="text_anim1" href="services.html#design" title="Design section in Services">Design</a>
+							</li>
+							<li>
+								<a class="text_anim1" href="services.html#development" title="Development section in Services">Development</a>
+							</li>
+							<li>
+								<a class="text_anim1" href="services.html#marketing" title="Marketing section in Services">Marketing</a>
+							</li>
+							<li>
+								<a class="text_anim1" href="services.html" title="Go to the services page">See More</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="footer__icon-link">
+						<li>
+							<a class="btn_anim5" href="https://www.facebook.com/" title="Facebook">
+								<span></span> <!-- Для анимации btn_anim5-->
+								<span class="footer__icon">
+									<i class="footer__icon-img-1"></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a class="btn_anim5" href="https://twitter.com/" title="Twitter">
+								<span></span> <!-- Для анимации btn_anim5-->
+								<span class="footer__icon">
+									<i class="footer__icon-img-2"></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a class="btn_anim5" href="https://www.instagram.com/" title="Instagram">
+								<span></span> <!-- Для анимации btn_anim5-->
+								<span class="footer__icon">
+									<i class="footer__icon-img-3"></i>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="footer__line"></div>
+				<div class="footer__copy">
+					<p class="footer__copy-info">Copyright © 2022 Laaqiq. All Rights Reserved.</p>
+					<div class="footer__copy-box">
+						<a class="footer__copy-link text_anim1" href="../error-404.html" title="Read the Terms of Use">Terms of Use</a>
+						<a class="footer__copy-link text_anim1" href="../error-404.html" title="Read the Privacy Policy">Privacy Policy</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- СКРИПТЫ -->
+		<script src="../script/for-page-portfolio.js"></script>
+	</body>
+</html>

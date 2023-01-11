@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"> <!-- Тип и кодировка страницы -->
+		<!-- <meta http-equiv="refresh" content="5; URL=home.html">  Через 5 секунд загрузить URL -->
+		<meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1"> <!-- Для мобильной адаптации -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+		<title>AGENCY - Аbout Me</title>
+		<link rel="icon" href="../favicon.png"> <!-- иконка 32×32 -->
+		<link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Шрифт -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Шрифт -->
+		<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap" rel="stylesheet"> <!-- Шрифт -->
+		<link rel="stylesheet" href="../style/style.css" type="text/css"> <!-- Стили общие -->
+		<link rel="stylesheet" href="../style/style-page-aboutme.css" type="text/css"> <!-- Стили для странички -->
+	</head>
+	<body>
+		<!-- ШАПКА -->
+		<header class="header">
+			<div class="body__container">
+				<div>
+					<div class="header__menu">
+						<a class="header__logo" href="../index.html" title="AGENCY - Home">
+							<img src="../image/logo.png" alt="Logo" title="Logo AGENCY">
+						</a>
+						<details class="header__menu-box">
+							<summary class="header__menu-icon"></summary>
+							<nav class="header__menu-list">
+								<a href="../index.html" title="AGENCY - Home">Home</a>
+								<a href="aboutme.html" title="Go to the about me page">About</a>
+								<a href="services.html" title="Go to the services page">Services</a>
+								<a href="portfolio.html" title="Go to the portfolio page">Portfolio</a>
+								<a href="blog.html" title="Go to the blog page">Blog</a>
+								<a href="contact.html" title="Go to the contact page">Contact</a>
+							</nav>
+						</details>
+					</div>
+					<nav class="header__nav">
+						<a class="header__logo" href="../index.html" title="AGENCY - Home">
+							<img src="../image/logo.png" alt="Logo" title="Logo AGENCY">
+						</a>
+						<ul class="header__list">
+							<li>
+								<a class="header__list-link text_anim3" href="#" title="Go to the about me page">About</a>
+							</li>
+							<li>
+								<a class="header__list-link text_anim3" href="services.html" title="Go to the services page">Services</a>
+							</li>
+							<li>
+								<a class="header__list-link text_anim3" href="portfolio.html" title="Go to the portfolio page">Portfolio</a>
+							</li>
+							<li>
+								<a class="header__list-link text_anim3" href="blog.html" title="Go to the blog page">Blog</a>
+							</li>
+						</ul>
+						<a class="header__btn-link btn_big btn_anim1" href="contact.html" title="Go to the contact page">Contact</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- КОНТЕНТ -->
+		<main>
+			<section class="pa-title"> <!-- БЛОК 0 = TITLE -->
+				<div class="body__container">
+					<div class="pa-title__all">
+						<h1 class="pa-title__title">About Me</h1>
+						<p class="pa-title__text">Agency provides a full service range including technical skills, design, business understanding.</p>
+					</div>
+				</div>
+			</section>
+			<section class="pa-author"> <!-- БЛОК 1 = AUTHOR -->
+				<div class="body__container">
+					<div class="pa-author__img-box">
+						<img class="pa-author__img" src="../image/pic6.jpg" alt="Photo of a man with glasses" title="Photo of a man with glasses">
+					</div>
+					<div class="pa-author__info">
+						<h5>Gabriel Pires</h5>
+						<h2 class="pa-author__title">Professional Web Designer</h2>
+						<p>Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.<br><br>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
+					</div>
+					<div class="pa-author__box">
+						<div class="pa-author__box-part">
+							<div class="pa-author__icon">
+								<span class="pa-author__icon-img-1"></span>
+							</div>
+							<div>
+								<h3>42&percnt;</h3>
+								<p class="pa-author__indicator">Years of experience</p>
+							</div>
+						</div>
+						<div class="pa-author__box-part pa-author__box-part_border">
+							<div class="pa-author__icon">
+								<span class="pa-author__icon-img-2"></span>
+							</div>
+							<div>
+								<h3>73+</h3>
+								<p class="pa-author__indicator">Projects Done</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="pa-video"> <!-- БЛОК 2 = VIDEO -->
+				<div class="body__container">
+					<div class="pa-video__all">
+						<h5>Video Reel</h5>
+						<h3 class="pa-video__title">Unlock The Greatest Value Possible</h3>
+						<p>Design, business understanding, ability to put themselves in the merchant's shoes meant to partner.</p>
+						<div class="pa-video__box">
+							<img class="pa-video__preview" src="../image/preview1.jpg" alt="Video Preview" title="Video with an example of the design" onclick="videoPrev()">
+							<iframe class="pa-video__video" src="https://www.youtube.com/embed/gAzDu-Elfno" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<p>Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.<br><br>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
+					</div>
+				</div>
+			</section>
+			<section class="pa-say"> <!-- БЛОК 3 = SAY -->
+				<div class="body__container">
+					<div class="pa-say__line"></div>
+					<div class="pa-say__all"> <!-- Ковычки на фоне -->
+						<svg class="pa-say__fon" width="100" height="80" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M44.9664 45C44.9964 45.15 45.9507 58.3 36.5177 68.54C29.508 76.145 18.9009 80 4.99627 80H0V65.9L4.012 65.1C10.9118 63.72 15.6933 60.985 18.2314 56.98C19.5312 54.8753 20.2692 52.4719 20.3748 50H4.99627C2.23691 50 0 47.7614 0 45V10C0 4.485 4.48165 0 9.99253 0H39.9701C42.7295 0 44.9664 2.23858 44.9664 5V45ZM99.9603 45C99.9903 45.15 100.94 58.3 91.5116 68.54C84.5019 76.145 73.8948 80 59.9902 80H54.9939V65.9L59.0059 65.1C65.9058 63.72 70.6872 60.985 73.2253 56.98C74.5251 54.8753 75.2631 52.4719 75.3687 50H59.9902C57.2308 50 54.9939 47.7614 54.9939 45V10C54.9939 4.485 59.4756 0 64.9865 0H94.9641C97.7234 0 99.9603 2.23858 99.9603 5V45Z" fill="#F9E5DA"/>
+						</svg>
+						<div class="pa-say__box-text">
+							<h5>Founder Words</h5>
+							<blockquote class="pa-say__qoute">Digital agency is a business you hire to outsource your
+								digital marketing efforts
+							</blockquote>
+							<p class="pa-say__big-text">Gabriel Pires</p>
+							<p>Founder</p>
+						</div>
+					</div>
+					<div class="pa-say__line"></div>
+					<div class="pa-say__logo">
+						<div class="pa-say__logo-img">
+							<img class="pa-say__img" src="../image/logo1.png" alt="Logo Digitalside" title="Digitalside">
+						</div>
+						<div class="pa-say__logo-img">
+							<img class="pa-say__img" src="../image/logo2.png" alt="Logo Vortex" title="Vortex">
+						</div>
+						<div class="pa-say__logo-img">
+							<img class="pa-say__img" src="../image/logo3.png" alt="Logo Travel Explorer" title="Travel Explorer">
+						</div>
+						<div class="pa-say__logo-img">
+							<img class="pa-say__img" src="../image/logo4.png" alt="Logo Fuzion" title="Fuzion">
+						</div>
+						<div class="pa-say__logo-img">
+							<img class="pa-say__img" src="../image/logo5.png" alt="Logo MediaFury" title="MediaFury">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="pa-start"> <!-- БЛОК 4 = GET STARTED -->
+				<div class="body__container">
+					<div class="pa-start__start">
+						<img src="../image/icon/icon6.svg" alt="Icon icon with a gift" title="Start development">
+					</div>
+					<div class="pa-start__all">
+						<div class="pa-start__info">
+							<h5>GET STARTED</h5>
+							<h4 class="pa-start__title">I Help Companies<br> Move Faster</h4>
+							<a class="pa-start__btn-link btn_big btn_anim4" href="../page/contact.html" title="Go to the contact page">Contact me</a>
+						</div>
+						<p class="pa-start__text">Put themselves in the merchant's shoes. It is meant to partner on the long run.</p>
+						<div class="pa-start__img-box">
+							<img class="pa-start__img" src="../image/pic4.png" alt="Progress image" title="An example of your development">
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- ПОДВАЛ -->
+		<footer class="footer">
+			<div class="body__container">
+				<nav class="footer__all">
+					<div class="footer__title-box">
+						<a class="footer__title text_anim3" href="../index.html" title="AGENCY - Home">Personal</a>
+					</div>
+					<div class="footer__menu">
+						<h5 class="footer__subtitle">Menu</h5>
+						<ul class="footer__list">
+							<li>
+								<a class="text_anim3" href="#" title="Go to the about me page">About</a>
+							</li>
+							<li>
+								<a class="text_anim3" href="services.html" title="Go to the services page">Services</a>
+							</li>
+							<li>
+								<a class="text_anim3" href="blog.html" title="Go to the blog page">Blog</a>
+							</li>
+							<li>
+								<a class="text_anim3" href="contact.html" title="Go to the contact page">Contact</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__menu">
+						<h5 class="footer__subtitle">Service</h5>
+						<ul class="footer__list">
+							<li>
+								<a class="text_anim3" href="services.html#design" title="Design section in Services">Design</a>
+							</li>
+							<li>
+								<a class="text_anim3" href="services.html#development" title="Development section in Services">Development</a>
+							</li>
+							<li>
+								<a class="text_anim3" href="services.html#marketing" title="Marketing section in Services">Marketing</a>
+							</li>
+							<li>
+								<a class="text_anim3" href="services.html" title="Go to the services page">See More</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="footer__icon-link">
+						<li>
+							<a class="btn_anim5" href="https://www.facebook.com/" title="Facebook">
+								<span></span> <!-- Для анимации btn_anim5-->
+								<span class="footer__icon">
+									<i class="footer__icon-img-1"></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a class="btn_anim5" href="https://twitter.com/" title="Twitter">
+								<span></span> <!-- Для анимации btn_anim5-->
+								<span class="footer__icon">
+									<i class="footer__icon-img-2"></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a class="btn_anim5" href="https://www.instagram.com/" title="Instagram">
+								<span></span> <!-- Для анимации btn_anim5-->
+								<span class="footer__icon">
+									<i class="footer__icon-img-3"></i>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="footer__line"></div>
+				<div class="footer__copy">
+					<p class="footer__copy-info">Copyright © 2022 Laaqiq. All Rights Reserved.</p>
+					<div class="footer__copy-box">
+						<a class="footer__copy-link text_anim3" href="../error-404.html" title="Read the Terms of Use">Terms of Use</a>
+						<a class="footer__copy-link text_anim3" href="../error-404.html" title="Read the Privacy Policy">Privacy Policy</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- СКРИПТЫ -->
+		<script src="../script/for-page-aboutme.js"></script>
+	</body>
+</html>

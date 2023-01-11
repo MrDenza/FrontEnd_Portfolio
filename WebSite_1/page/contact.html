@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"> <!-- Тип и кодировка страницы -->
+		<!-- <meta http-equiv="refresh" content="5; URL=home.html">  Через 5 секунд загрузить URL -->
+		<meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1"> <!-- Для мобильной адаптации -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+		<title>AGENCY - Contact</title>
+		<link rel="icon" href="../favicon.png"> <!-- иконка 32×32 -->
+		<link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Шрифт -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Шрифт -->
+		<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap" rel="stylesheet"> <!-- Шрифт -->
+		<link rel="stylesheet" href="../style/style.css" type="text/css"> <!-- Стили общие -->
+		<link rel="stylesheet" href="../style/style-page-contact.css" type="text/css"> <!-- Стили для странички -->
+	</head>
+	<body>
+		<!-- ШАПКА -->
+		<header class="header">
+			<div class="body__container">
+				<div>
+					<div class="header__menu">
+						<a class="header__logo" href="../index.html" title="AGENCY - Home">
+							<img src="../image/logo.png" alt="Logo" title="Logo AGENCY">
+						</a>
+						<details class="header__menu-box">
+							<summary class="header__menu-icon"></summary>
+							<nav class="header__menu-list">
+								<a href="../index.html" title="AGENCY - Home">Home</a>
+								<a href="aboutme.html" title="Go to the about me page">About</a>
+								<a href="services.html" title="Go to the services page">Services</a>
+								<a href="portfolio.html" title="Go to the portfolio page">Portfolio</a>
+								<a href="blog.html" title="Go to the blog page">Blog</a>
+								<a href="#" title="Go to the contact page">Contact</a>
+							</nav>
+						</details>
+					</div>
+					<nav class="header__nav">
+						<a class="header__logo" href="../index.html" title="AGENCY - Home">
+							<img src="../image/logo.png" alt="Logo" title="Logo AGENCY">
+						</a>
+						<ul class="header__list">
+							<li>
+								<a class="header__list-link text_anim3" href="aboutme.html" title="Go to the about me page">About</a>
+							</li>
+							<li>
+								<a class="header__list-link text_anim3" href="services.html" title="Go to the services page">Services</a>
+							</li>
+							<li>
+								<a class="header__list-link text_anim3" href="portfolio.html" title="Go to the portfolio page">Portfolio</a>
+							</li>
+							<li>
+								<a class="header__list-link text_anim3" href="blog.html" title="Go to the blog page">Blog</a>
+							</li>
+						</ul>
+						<a class="header__btn-link btn_big btn_anim1" href="#" title="Go to the contact page">Contact</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- КОНТЕНТ -->
+		<main>
+			<section class="pc-title"> <!-- БЛОК 0 -->
+				<div class="body__container">
+					<div class="pc-title__all">
+						<h1 class="pc-title__title">Contact</h1>
+						<p class="pc-title__text">Agency provides a full service range including technical skills, design, business understanding.</p>
+					</div>
+				</div>
+			</section>
+			<section class="pc-form" id="ask"> <!-- БЛОК 1 = FORM -->
+				<div class="pc-form__container">
+					<div class="body__container">
+						<div class="pc-form__all">
+							<div class="pc-form__feedback">
+								<h4 class="pc-form__feedback-title">Get In Touch</h4>
+								<form class="pc-form__form" name="feedbackForm" action="#" method="post" onsubmit="return validate_feedbackForm()">
+									<label for="feedback-email">Your email</label>
+									<input class="pc-form__form-email" id="feedback-email" type="text" name="email" placeholder="Your email">
+									<label for="feedback-list">Your email</label>
+									<select class="pc-form__form-list" id="feedback-list" name="subject">
+										<option value="" disabled selected>Subject</option>
+										<option value="1">Design</option>
+										<option value="2">Development</option>
+										<option value="3">Marketing</option>
+										<option value="4">Other</option>
+									</select>
+									<label for="feedback-text">Your email</label>
+									<textarea class="pc-form__form-text" id="feedback-text" name="text" placeholder="Message"></textarea>
+									<button class="pc-form__form-btn btn_big" type="submit">
+										<span class="pc-form_btn-before">Submit now</span>
+										<span class="pc-form_btn-after">Done!</span>
+									</button>
+								</form>
+							</div>
+							<div class="pc-form__icon-box">
+								<span class="pc-form__icon list_anim1">
+									<span class="pc-form__icon-img"></span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pc-form__map">
+					<div class="pc-form__icon-box-new">
+						<span class="pc-form__icon">
+							<span class="pc-form__icon-img"></span>
+						</span>
+					</div>
+				</div>
+			</section>
+			<section class="pc-info">  <!-- БЛОК 2 = INFO -->
+				<div class="body__container">
+					<h2 class="off">off</h2>
+					<div class="pc-info__all">
+						<ul class="pc-info__list">
+							<li class="pc-info__list-point pc-info_border-one">
+								<span class="pc-info__header">
+									<span class="pc-info__icon">
+										<span class="pc-info__icon-img-1"></span>
+									</span>
+									<span class="pc-info__title">Phone</span>
+								</span>
+								<a class="pc-info__big-text text_anim1" href="tel:12345678900" title="Contact phone number">+1 (234) 567-89-00</a>
+							</li>
+							<li class="pc-info__list-point">
+								<span class="pc-info__header">
+									<span class="pc-info__icon">
+										<span class="pc-info__icon-img-2"></span>
+									</span>
+									<span class="pc-info__title">EMail</span>
+								</span>
+								<a class="pc-info__big-text text_anim1" href="mailto:info@agency.com" title="Email for communication">info@agency.com</a>
+							</li>
+							<li class="pc-info__list-point pc-info_border-three">
+								<span class="pc-info__header">
+									<span class="pc-info__icon">
+										<span class="pc-info__icon-img-3"></span>
+									</span>
+									<span class="pc-info__title">Address</span>
+								</span>
+								<a class="pc-info__big-text text_anim1" href="https://goo.gl/maps/7Uk7TXqDXG1VvGAaA" title="Postal address">
+									<address>2247 Lunetta Street, TX 76301</address>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="pc-faq"> <!-- БЛОК 3 = INFO -->
+				<div class="body__container">
+					<div class="pc-faq__all">
+						<div class="pc-faq__info">
+							<h5>Faq</h5>
+							<h3 class="pc-faq__title">Frequently Asked Questions</h3>
+							<p class="pc-faq__text">A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
+							<a class="pc-faq__link text_anim1" href="#ask" title="Go to the contact page">Ask us anything</a>
+						</div>
+						<div class="pc-faq__container">
+							<div class="pc-faq__box">
+								<details class="pc-faq__block" open>
+									<summary class="pc-faq__block-title pc-faq__block_border-top">
+										<span>A digital agency is a business</span>
+										<span class="pc-faq__icon">
+											<span class="pc-faq__icon-img-p"></span>
+										</span>
+									</summary>
+									<div class="pc-faq__block-text">
+										Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.
+									</div>
+								</details>
+								<details class="pc-faq__block">
+									<summary class="pc-faq__block-title">
+										<span>Hire to outsource your digital</span>
+										<span class="pc-faq__icon">
+											<span class="pc-faq__icon-img-p"></span>
+										</span>
+									</summary>
+									<div class="pc-faq__block-text">
+										Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.
+									</div>
+								</details>
+								<details class="pc-faq__block">
+									<summary class="pc-faq__block-title">
+										<span>Marketing efforts</span>
+										<span class="pc-faq__icon">
+											<span class="pc-faq__icon-img-p"></span>
+										</span>
+									</summary>
+									<div class="pc-faq__block-text">
+										Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.
+									</div>
+								</details>
+								<details class="pc-faq__block">
+									<summary class="pc-faq__block-title">
+										<span>Can provide your business</span>
+										<span class="pc-faq__icon">
+											<span class="pc-faq__icon-img-p"></span>
+										</span>
+									</summary>
+									<div class="pc-faq__block-text pc-faq__block_border-bottom">
+										Business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.
+									</div>
+								</details>
+							</div>
+						</div>
+					</div>
+					<div class="pc-faq__line"></div>
+				</div>
+			</section>
+		</main>
+		<!-- ПОДВАЛ -->
+		<footer class="footer">
+			<div class="body__container">
+				<nav class="footer__all">
+					<div class="footer__title-box">
+						<a class="footer__title text_anim1" href="../index.html" title="AGENCY - Home">Personal</a>
+					</div>
+					<div class="footer__menu">
+						<h5 class="footer__subtitle">Menu</h5>
+						<ul class="footer__list">
+							<li>
+								<a class="text_anim1" href="aboutme.html" title="Go to the about me page">About</a>
+							</li>
+							<li>
+								<a class="text_anim1" href="services.html" title="Go to the services page">Services</a>
+							</li>
+							<li>
+								<a class="text_anim1" href="blog.html" title="Go to the blog page">Blog</a>
+							</li>
+							<li>
+								<a class="text_anim1" href="#" title="Go to the contact page">Contact</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__menu">
+						<h5 class="footer__subtitle">Service</h5>
+						<ul class="footer__list">
+							<li>
+								<a class="text_anim1" href="services.html#design" title="Design section in Services">Design</a>
+							</li>
+							<li>
+								<a class="text_anim1" href="services.html#development" title="Development section in Services">Development</a>
+							</li>
+							<li>
+								<a class="text_anim1" href="services.html#marketing" title="Marketing section in Services">Marketing</a>
+							</li>
+							<li>
+								<a class="text_anim1" href="services.html" title="Go to the services page">See More</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="footer__icon-link">
+						<li>
+							<a class="btn_anim5" href="https://www.facebook.com/" title="Facebook">
+								<span></span> <!-- Для анимации btn_anim5-->
+								<span class="footer__icon">
+									<i class="footer__icon-img-1"></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a class="btn_anim5" href="https://twitter.com/" title="Twitter">
+								<span></span> <!-- Для анимации btn_anim5-->
+								<span class="footer__icon">
+									<i class="footer__icon-img-2"></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a class="btn_anim5" href="https://www.instagram.com/" title="Instagram">
+								<span></span> <!-- Для анимации btn_anim5-->
+								<span class="footer__icon">
+									<i class="footer__icon-img-3"></i>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="footer__line"></div>
+				<div class="footer__copy">
+					<p class="footer__copy-info">Copyright © 2022 Laaqiq. All Rights Reserved.</p>
+					<div class="footer__copy-box">
+						<a class="footer__copy-link text_anim1" href="../error-404.html" title="Read the Terms of Use">Terms of Use</a>
+						<a class="footer__copy-link text_anim1" href="../error-404.html" title="Read the Privacy Policy">Privacy Policy</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- СКРИПТЫ -->
+		<script src="../script/for-page-contact.js"></script>
+	</body>
+</html>
